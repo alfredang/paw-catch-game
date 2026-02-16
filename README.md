@@ -7,11 +7,11 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Canvas API](https://img.shields.io/badge/Canvas_API-FF6B6B?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://alfredang.github.io/paw-game/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://alfredang.github.io/paw-catch-game/)
 
 **A fun reflex-testing game where you catch a bouncing paw before it escapes!**
 
-[Play Now](https://alfredang.github.io/paw-game/) · [Report Bug](https://github.com/alfredang/paw-game/issues) · [Request Feature](https://github.com/alfredang/paw-game/issues)
+[Play Now](https://alfredang.github.io/paw-catch-game/) · [Report Bug](https://github.com/alfredang/paw-catch-game/issues) · [Request Feature](https://github.com/alfredang/paw-catch-game/issues)
 
 </div>
 
@@ -66,7 +66,7 @@ Paw Catch is an engaging browser-based clicking game where players test their re
 ## Project Structure
 
 ```
-paw-game/
+paw-catch-game/
 ├── index.html       # Game page and canvas element
 ├── style.css        # Dark theme styling and layout
 ├── game.js          # Game loop, rendering, and input handling
@@ -84,10 +84,10 @@ paw-game/
 
 ```bash
 # Clone the repository
-git clone https://github.com/alfredang/paw-game.git
+git clone https://github.com/alfredang/paw-catch-game.git
 
 # Open in browser
-open paw-game/index.html
+open paw-catch-game/index.html
 ```
 
 No build tools or dependencies required.
@@ -101,15 +101,18 @@ No build tools or dependencies required.
 
 ## Deployment
 
-The game is deployed on **GitHub Pages** and available at:
+The game is deployed on **GitHub Pages** via **GitHub Actions** and available at:
 
-**https://alfredang.github.io/paw-game/**
+**https://alfredang.github.io/paw-catch-game/**
+
+Pushing to `main` automatically triggers a deployment workflow.
 
 To deploy your own fork:
 1. Fork this repository
 2. Go to **Settings** > **Pages**
-3. Set source to **Deploy from a branch** > `main` > `/ (root)`
-4. Your site will be live at `https://<your-username>.github.io/paw-game/`
+3. Set source to **GitHub Actions**
+4. Push to `main` and the workflow will deploy automatically
+5. Your site will be live at `https://<your-username>.github.io/paw-catch-game/`
 
 ## Contributing
 
@@ -121,7 +124,7 @@ Contributions are welcome!
 4. Push to the branch (`git push origin feature/awesome-feature`)
 5. Open a Pull Request
 
-Have questions or ideas? Join the [Discussions](https://github.com/alfredang/paw-game/discussions).
+Have questions or ideas? Join the [Discussions](https://github.com/alfredang/paw-catch-game/discussions).
 
 ## Collaborator
 
