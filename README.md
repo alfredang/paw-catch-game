@@ -1,28 +1,24 @@
-# Space Paw 🚀
+# Paw Game 🐾
 
-A fun space shooter game where you're a paw fighting aliens!
+A simple and fun clicking game built with HTML, CSS, and JavaScript.
 
 ## How to Play
 
 1. Open `index.html` in your browser
-2. Press **Space** to start
-3. **Arrow keys** to move
-4. **Space** to shoot
-5. Destroy aliens and survive!
+2. Click anywhere on the game canvas to start
+3. Click on the moving paw 🐾 to score points!
+4. The paw moves faster as your score increases
 
-## Features
+## Files
 
-- 🐾 Cute paw spaceship
-- 👾 Alien enemies
-- ⭐ Starfield background
-- ❤️ 3 lives
-- 💥 Score system
+- `index.html` - Main game structure
+- `style.css` - Game styling
+- `game.js` - Game logic
 
 ## Live Demo
 
 https://alfredang.github.io/paw-game/
 
-## Controls
+## License
 
-- **Arrow Keys** - Move
-- **Space** - Shoot / Start / Restart
+MIT
