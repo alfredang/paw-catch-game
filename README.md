@@ -2,6 +2,12 @@
 
 A simple and fun clicking game built with HTML, CSS, and JavaScript.
 
+![Paw Game Screenshot](screenshot.png)
+
+## About
+
+Paw Game is an engaging interactive clicking game where players test their reflexes by clicking on moving paws. Each successful click increases your score and speeds up the gameplay, creating an increasingly challenging experience. Perfect for quick gaming sessions and honing your clicking skills!
+
 ## How to Play
 
 1. Open `index.html` in your browser
